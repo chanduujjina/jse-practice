@@ -5,6 +5,16 @@ import com.demo.utility.ComputeUtility;
 
 public class Demo {
 
+	private String name;
+	private String nAme;
+	
+	private int rollNo;
+	
+	private int rollno;
+	
+	
+	
+	
 	public static void main(String[] args) {
 		//create object
 		/*Employee  emp = new  Employee();
