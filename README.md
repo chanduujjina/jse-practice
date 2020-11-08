@@ -73,17 +73,42 @@ write a program to find prime numbers between 1 to 20
 
 2,3,5,7,11,13,17,19
 
-*
-**
-***
-****
-*****
+OOPS:
+----------------
+1.what is class(just blue print of an object)
+
+class has physical entity
+
+what is an object
+
+state
+action
+
+1.inheritance(reusability,parent(super),subclass(this))
 
 
-*****
-****
-***
-*
+what is diffrence between and this and super
+
+
+how to load/access instance variables
+by cteating object
+
+
+
+Employee
+id,name,dept,salary,account,salary
+
+admin(acess,departments)
+devloper(skill type,designation)
+tester(skill type , designation)
+
+
+
+
+
+
+
+                                                                    
 
 
 
