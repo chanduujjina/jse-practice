@@ -103,6 +103,53 @@ devloper(skill type,designation)
 tester(skill type , designation)
 
 
+1.inheritance
+
+is a relation /has a relation
+
+2.encapusation(abstraction,intreface,package access specifiers,access modifiers)
+data hiding
+
+3.polymorphism(method overriding,method overloading)
+
+static class,static method, static block, static varibale
+
+
+data hiding(permissions)
+Access specifiers
+public (which can access across the project)
+protected(with in the package,super class and its subclass)
+private(with in the class)
+default(which load implistly)
+
+
+abstract class can contains both concrete method and abstract method
+
+concrete method : a method which contains a body(having the implementation and definition)
+
+abstarct method a method which don't have any body(only the definition and don't have implementation)
+
+what is an interface ?
+
+interface is class which contains only abstarct methods
+
+Notification
+
+chandu
+pavan 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
