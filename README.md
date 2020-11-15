@@ -135,8 +135,19 @@ interface is class which contains only abstarct methods
 
 Notification
 
-chandu
-pavan 
+1.intreface with factory design pattern
+
+
+1.what are the preacutiions you need to take to override a method
+
+1.that ovverrided method should be extend/implement the super class
+
+2.mehod definition and signature should be same as super class method
+
+
+
+
+
 
 
 
