@@ -145,7 +145,20 @@ Notification
 2.mehod definition and signature should be same as super class method
 
 
+Strings,Arrays
 
+String handlers
+1.what is a string
+
+2.what is stringbuffer
+
+2.what is Stringbuilder
+
+3.what is String pooling
+
+String is immutable
+
+== ,equals
 
 
 
