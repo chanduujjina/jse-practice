@@ -160,6 +160,41 @@ String is immutable
 
 == ,equals
 
+concat,split,substring
+
+
+String s1= "pavan";
+String s2 = new String("pavan");
+
+concatenation,split,substring,index,suffix,prefix
+
+    chandu   
+
+
+
+
+
+Strring s1 = "d/chandu/abc.xml"
+
+Strring s2= "d/chandu/abc.pdf"
+
+
+String s3= "d/chandu/abc.txt
+
+String s1= "d/chandu/abc/abc.xml";
+
+
+String s1="west side counter";
+
+String s1="east side counter";
+
+String s1="chandu is java programmerr";
+
+
+String s1="pavan is plm programmer";
+
+
+
 
 
 
