@@ -194,6 +194,45 @@ String s1="chandu is java programmerr";
 String s1="pavan is plm programmer";
 
 
+1.what is String buffer
+2.what is String builder
+
+
+dynamic query
+1.when user provide name and id as search criteria
+select * from employee where eid=2 and ename='chandu'
+
+2.when user provide date of join and salary as search criteria
+select * from employee where doj=12/10/2020 and salary<=30000
+
+3.select * from employee
+
+
+Multi threading
+
+preparing meat
+
+thread1
+1.prepare ingredients
+
+thread 2
+clean meat and biol
+
+thread3
+gas realted
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
