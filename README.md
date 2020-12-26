@@ -222,12 +222,28 @@ thread3
 gas realted
 
 
+I/O Streams
+-------------
+
+I-->Input Stream(read data from file)
+O -->Output Stream(write data into file)
+
+Stream -->continuous flow of data
+
+Files:
+---------
+1.read data from file
+2.write data into file
+
+1.read data from console then writing data  into file
+2.read data from file then write data into some other file
 
 
 
-
-
-
+Needs to discuss
+1.read  data from excel using java
+2.write data into excel
+3.write data into pdf using itext pdf writer
 
 
 
