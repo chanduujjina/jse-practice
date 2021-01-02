@@ -24,7 +24,7 @@ public class IOStreamHandler {
 
 	}
 
-	private static int readDataFromFilebyOffset() throws IOException {
+	private static int readDataFromFilebyOffset() throws IOException  {
 		InputStream in = null;
 		BufferedInputStream bi = null;
 		try {

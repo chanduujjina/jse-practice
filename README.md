@@ -245,6 +245,26 @@ Needs to discuss
 2.write data into excel
 3.write data into pdf using itext pdf writer
 
+Exception Handling
+------------------
+1.Checked Exception
+2.Unchecked Exception
+3.Custom Exception(validations)
+5.java  8 Exceptions
+
+
+1.if user  provide value -->success
+2.if the user provide wrong value -->in correct value
+
+length it should be numeric
+input values:
+1.abc -->wrong
+2.abc -->wrong
+3.-1 -->wrong
+4. 0 -->wrong
+5 .>0 -->success
+
+textbox
 
 
 
