@@ -272,6 +272,46 @@ throw,throws,final,finally
 
 push from my mac.
 
+service call:
+-------------
+EmployeeService
+
+Client:
+
+getEmployeeByName("chandu")
+
+Eid,ename,dept,salry(happy path),status,message
+1    chandu it 10000               active null
+2     pavan  it 10000             inactive  moved out
+
+wrong scenarios:
+---------------
+you need throw some exception with valid message
+
+throw new EmployeeNotFoundException(101)
+
+101-Employee terminated
+102-Employee moved out
+103-On Leave ML
+104-Met an excident on leave
+
+MultiThreading:
+Collections:
+Arrays
+Some Customized libraries
+
+JSE End
+---------------------------------------------------------------
+
+Advance Java
+HTML,CSS,JSP(UI)
+Servlets
+JDBC(Java with Database connection)
+-------------------
+
+
+
+
 
 
 

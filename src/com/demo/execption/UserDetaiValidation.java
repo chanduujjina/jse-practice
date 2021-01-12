@@ -8,22 +8,22 @@ public class UserDetaiValidation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//happy  path
-     //validateUserInfo(1,"chandu","PAN102954");
+   // validateUserInfo(1,"chandu","PAN102954");
    //wrong scenario1
-     //validateUserInfo(-1,"chandu","PAN102954");
+    //validateUserInfo(-1,"chandu","PAN102954");
    //wrong scenario2
      //validateUserInfo(1,"","PAN102954");
     
     //wrong scenario3
     // validateUserInfo(1,"chandu","");
      //wrong scenario4
-     //validateUserInfo(1, "chandu12", "PAN102954");
+    // validateUserInfo(1, "chandu12", "PAN102954");
    //wrong scenario5
     // validateUserInfo(1, "chandu123", "PAN");
-		//ResponseInfo info=validateAllUserDetails(1, "chandu", "PAN102954");
-		ResponseInfo info=validateAllUserDetails(-1,"chandu","PAN102954");	
+		ResponseInfo info=validateAllUserDetails(1, "chandu", "PAN102954");
+		//ResponseInfo info=validateAllUserDetails(-1,"chandu","PAN102954");	
 		System.out.println(info);
-    // System.out.println("validation is success");
+    System.out.println("validation is success");
 	}
 
 	private static void validateUserInfo(int customerid ,String name,String pan) {
@@ -76,8 +76,7 @@ public class UserDetaiValidation {
 		}
 		else {
 			response .setMessage("vlidation is success");
-			response .setErrorInfo(null
-					);
+			response .setErrorInfo(null);
 		}
 		return response;
 	}
