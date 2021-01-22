@@ -297,6 +297,20 @@ throw new EmployeeNotFoundException(101)
 
 MultiThreading:
 Collections:
+--------------------------------------------
+1.what is Collection()
+---------------------
+1.Collection is framework
+2.heterogenous mixture
+
+
+2.What are the adavantages of collection
+
+
+3.why we are opting collection instaed of arrays
+4.Collection framework hierarachy
+5.List interface
+-------------------------------------------
 Arrays
 Some Customized libraries
 
