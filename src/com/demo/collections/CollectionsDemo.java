@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class CollectionsDemo {
 
@@ -29,13 +32,17 @@ public class CollectionsDemo {
 		*/
 		
 		List<Integer>  numberList = Arrays.asList(1,7,14,13,19, 11,10);
-		//find max value from list
-		int maxvalue=Collections.max(numberList);
-		System.out.println("maxvalue:"+maxvalue);
+		//getElementsfromtheCollections(numberList);
+		//getElementsfromtheCollectionsInBothDirections(numberList,"forward");
+		//getElementsfromtheCollectionsInBothDirections(numberList,"backward");
 		
-		//find min value from list
-		int minvalue=Collections.min(numberList);
-		System.out.println("minvalue:"+minvalue);
+		
+		
+		//find max value from list
+		//getMaxorMinValfromCollection(numberList,"max");
+		
+		//find max value from list
+		//getMaxorMinValfromCollection(numberList,"min");
 		
 		//reverse the list
 		//Collections.reverse(numberList);
@@ -52,10 +59,63 @@ public class CollectionsDemo {
 		
 		//names list
 		List<String> nameList = Arrays.asList("pavan","chandu","anand","balu","vinod");
-		SortNameCollectionByOrder("descending",nameList);
-		SortNameCollectionByOrder("ascending",nameList);
+		//SortNameCollectionByOrder("descending",nameList);
+		//SortNameCollectionByOrder("ascending",nameList);
+		SortNameCollectionByOrder8("descending",nameList);
+		SortNameCollectionByOrder8("ascending",nameList);
 			
 }
+	
+	private static void getElementsfromtheCollectionsInBothDirections(List<Integer> numberList, String direction) {
+		ListIterator<Integer> listItr= numberList.listIterator();
+		if(direction.equalsIgnoreCase("forward")) {
+			
+			while(listItr.hasNext()) {
+				System.out.println(listItr.next());
+			}
+		}
+		
+		else if (direction.equalsIgnoreCase("backward")) {
+			while(listItr.hasPrevious()) {
+				System.out.println(listItr.previous());
+			}
+		}
+		
+	}
+
+	//pupose of this method is to fetch the elements from the collection using iterator
+	private static void getElementsfromtheCollections(List<Integer> numberList) {
+		Iterator<Integer> itr= numberList.iterator();
+		//apporach one while loop
+		/*while(itr.hasNext()) {
+			int value = itr.next();
+			System.out.println(value);
+		}*/
+		
+		
+		//approach 2 using for each loop
+		for(Integer val :numberList) {
+			System.out.println(val);
+		}
+		
+		
+	}
+	
+	
+
+
+	private static int getMaxorMinValfromCollection(List<Integer>  numberList,String priority) {
+		int value=0;
+		if(priority.equalsIgnoreCase("max")) {
+			value= Collections.max(numberList);
+			System.out.println("maxvalue:"+value);
+		}
+		else {
+			value= Collections.min(numberList);
+			System.out.println("minvalue:"+value);
+		}
+		return value;
+	}
 
 	private static void SortNumberCollectionByOrder(String order, List<Integer> numberList) {
 		if(order.equalsIgnoreCase("descending")) {
@@ -109,6 +169,17 @@ public class CollectionsDemo {
 		System.out.println("name list ascending order:"+nameList);
 		}
 		
+	}
+	
+	private static void SortNameCollectionByOrder8(String order, List<String> nameList) {
+		if(order.equalsIgnoreCase("descending")) {
+		List<String> list =nameList.stream().sorted((val1,val2)->val2.compareTo(val1)).collect(Collectors.toList());
+		System.out.println("descending order:"+list);
+		}
+		else if(order.equalsIgnoreCase("ascending")){
+			List<String> list1 = nameList.stream().sorted((val1,val2)->val1.compareTo(val2)).collect(Collectors.toList());
+			System.out.println("ascending order:"+list1);
+		}
 	}
 
 }

@@ -310,6 +310,17 @@ Collections:
 3.why we are opting collection instaed of arrays
 4.Collection framework hierarachy
 5.List interface
+
+Iterable(interface)
+-------------------
+which is used to feach or read or get an element from the collection
+1.iterator
+2.foreach
+
+
+
+
+
 -------------------------------------------
 Arrays
 Some Customized libraries
