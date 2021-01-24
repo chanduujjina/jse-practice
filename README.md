@@ -317,6 +317,9 @@ which is used to feach or read or get an element from the collection
 1.iterator
 2.foreach
 
+aggregators(sum,average,max,min) functions
+group by caluse,distinct
+sort mechanism
 
 
 
