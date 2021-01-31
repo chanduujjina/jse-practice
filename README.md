@@ -321,6 +321,8 @@ aggregators(sum,average,max,min) functions
 group by caluse,distinct
 sort mechanism
 
+internal mechanism of linkedlist
+1.Find the middle element from the linked list using custom linked list
 
 
 
@@ -336,6 +338,12 @@ HTML,CSS,JSP(UI)
 Servlets
 JDBC(Java with Database connection)
 -------------------
+
+1.Mockservice 
+1.read data from mockservice
+2.add/update/delete from mock service
+using design patterns
+
 
 
 
