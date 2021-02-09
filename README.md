@@ -303,6 +303,12 @@ Collections:
 1.Collection is framework
 2.heterogenous mixture
 
+HashSet,LinkedHashset
+
+Uses of Design pattern
+Factory Design Pattern
+
+Mockservices using List and Set:
 
 2.What are the adavantages of collection
 
@@ -324,7 +330,21 @@ sort mechanism
 internal mechanism of linkedlist
 1.Find the middle element from the linked list using custom linked list
 
+9Feb:
+-----
+Java 8 Features:
+1.Lambda expressions
+2.Functional interface
+3.Functions(Function,BiFunction)
+4.Consumers
+5.Biconsumers
+6.Predicates
+7.BiPredicates
+8.Unioperates
+8.BiOperates
+8.Suppliers
 
+https://mkyong.com/tutorials/java-8-tutorials/
 
 -------------------------------------------
 Arrays
@@ -343,6 +363,10 @@ JDBC(Java with Database connection)
 1.read data from mockservice
 2.add/update/delete from mock service
 using design patterns
+
+
+HTML,JSP Tags,Javascript,Jquery
+
 
 
 
