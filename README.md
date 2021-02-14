@@ -344,6 +344,8 @@ Java 8 Features:
 8.BiOperates
 8.Suppliers
 
+flatmap,Collectors
+
 https://mkyong.com/tutorials/java-8-tutorials/
 
 -------------------------------------------
