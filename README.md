@@ -372,7 +372,17 @@ HTML,JSP Tags,Javascript,Jquery
 
 
 
+3.1. New String Methods
 
+3.2. New File Methods
+
+3.3. Collection to an Array
+
+3.4. The Not Predicate Method
+
+3.5. Local-Variable Syntax for Lambda
+
+3.6. HTTP Client
 
 
 
