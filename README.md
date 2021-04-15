@@ -394,7 +394,17 @@ HTML,JSP Tags,Javascript,Jquery
 
 Hi Welcome to new project
 
+to download code:
+git clone https://github.com/chanduujjina/jse-practice.git
 
+to add file from unstaged state to staged state
+git add .
+
+commit the file:
+git commit -m"message"
+
+push the code to repo:
+git push
 
 
 
